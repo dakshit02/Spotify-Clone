@@ -11,7 +11,8 @@ let nextbut = document.querySelector(".fa-forward");
 
 async function getSongs() {
 
-    let a = await fetch("./Songs/");
+    let a = await fetch("Songs/");
+
 
     let response = await a.text();
     // console.log(response);
