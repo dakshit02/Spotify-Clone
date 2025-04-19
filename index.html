@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify2</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="spotify_1.css">
+    <link rel="stylesheet" href="Utility.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+
+    <style>
+
+    </style>
+
+</head>
+
+<body>
+
+    <div class="nav">
+        <div class="nav_left">
+            <i class="fa-brands fa-spotify fa-2xl" style="color: #32d704;"></i>
+            <div class="container">
+                <button class="homebutt">
+                    <img src="SVGS/home.svg" alt="" srcset="">
+                </button>
+                <form action="">
+                    <div class="search">
+                        <img class="searchIcon" src="SVGS/search.svg" alt="">
+                        <input class="searchbar" type="text" placeholder="What do you want to play ?">
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="nav_right">
+            <button class="button">Premium</button>
+            <button class="button">Support</button>
+            <button class="button">Download</button>
+            <div style="background: #fff; height: 25px; margin: 16px;width: 1px;">|</div>
+
+            <!-- <svg data-encore-id="icon" role="img" aria-hidden="true" class="e-9800-icon e-9800-baseline" viewBox="0 0 16 16" style="--encore-icon-height: var(--encore-graphic-size-decorative-smaller); --encore-icon-width: var(--encore-graphic-size-decorative-smaller);"><path d="M4.995 8.745a.75.75 0 0 1 1.06 0L7.25 9.939V4a.75.75 0 0 1 1.5 0v5.94l1.195-1.195a.75.75 0 1 1 1.06 1.06L8 12.811l-.528-.528a.945.945 0 0 1-.005-.005L4.995 9.805a.75.75 0 0 1 0-1.06z"></path><path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13z"></path></svg> -->
+
+            <a class="install_link" href="">Install App</a>
+
+            <div class="login_signupButt" style="display: flex; color: white; gap: 2rem; margin-left: 20px;">
+                <button class="button">Sign up
+            </div>
+            <button class="login_butt"> Log in</button>
+        </div>
+
+    </div>
+
+    <div class="main">
+        <div class="left">
+            <div class="left1 font-family">
+                <div>Your Library</div>
+                <button class="addToLibBut">+</button>
+
+            </div>
+            <div class="left2">
+                <div class="left2box">
+                    <div>Create your first playlist</div>
+                    <div style="font-size:14.5px; font-weight: 500;">It's easy,we'll help you</div>
+                    <button class="left2but">Create playlist</button>
+                </div>
+                <div class="left2box">
+                    <div>Lets's find some podcasts to follow</div>
+                    <div style="font-size: 14.5px; font-weight: 500;">We'll keep you updated on new episodes</div>
+                    <button class="left2but">Browse podcasts</button>
+                </div>
+            </div>
+            <div class="left3">
+
+                <span>Legal</span>
+                <span>Safety & Privacy Center</span>
+                <span> Privacy Policy</span>
+                <span>Cookies</span>
+                <span>About Ads</span>
+                <span>Accessibility</span>
+            </div>
+
+            <div class="left4">
+                <img class="langLogo" src="SVGS/language.svg" alt="">
+                <button class="lang">ENGLISH</button>
+            </div>
+        </div>
+
+        <div class="right">
+            <div class="Trending_sec">
+                <div style="font-size: x-large;">Trending songs</div>
+            </div>
+
+            <div class="songCoverPic">
+                <div class="songCoverPicBox">
+                    <img class="songs" src="SongThumbnail/song1.jpeg" alt="">
+                    <span class="play"><img src="SVGS/play.svg" alt=""></span>
+                    <h4>Jhol</h4>
+                    <p style="color: rgb(144, 143, 143); font-size: smaller;">Maanu,Annural khalid</p>
+                </div>
+                <div class="songCoverPicBox">
+                    <img class="songs" src="SongThumbnail/song2.jpeg" alt="">
+                    <span class="play"><img src="SVGS/play.svg" alt=""></span>
+                    <h4>Moosetape</h4>
+                    <p style="color: rgb(144, 143, 143);font-size: smaller">Afusic Music</p>
+                </div>
+                <div class="songCoverPicBox">
+                    <img class="songs" src="SongThumbnail/song3.jpeg" alt="">
+                    <span class="play"><img src="SVGS/play.svg" alt=""></span>
+                    <h4>Making Memories</h4>
+                    <p style="color: rgb(144, 143, 143);font-size: smaller">Karan Aujla,Ikky</p>
+                </div>
+                <div class="songCoverPicBox">
+                    <img class="songs" src="SongThumbnail/song4.jpeg" alt="">
+                    <span class="play"><img src="SVGS/play.svg" alt=""></span>
+                    <h4>Jab We Met</h4>
+                    <p style="color: rgb(144, 143, 143);font-size: smaller">Pritam,Irshad Kamil</p>
+                </div>
+                <div class="songCoverPicBox">
+                    <img class="songs" src="SongThumbnail/song5.jpeg" alt="">
+                    <span class="play"><img src="SVGS/play.svg" alt=""></span>
+                    <h4>Glory</h4>
+                    <p style="color: rgb(144, 143, 143);font-size: smaller">Yo Yo Honey Singh</p>
+                </div>
+                <div class="songCoverPicBox">
+                    <img class="songs" src="SongThumbnail/song6.jpeg" alt="">
+                    <span class="play"><img src="SVGS/play.svg" alt=""></span>
+                    <h4>Hurry Up Tomorrow</h4>
+                    <p style="color: rgb(144, 143, 143);font-size: smaller">The Weeknd</p>
+                </div>
+            </div>
+
+            <div class="popularArtist">
+                <div style="font-size: x-large;">Popular artists</div>
+            </div>
+            <div class="artistCoverPic">
+                <div class="artistCoverPicBox">
+                    <img class="artistPic" src="Artists/pritam.jpeg" alt="">
+                    <span class="play"><img src="SVGS/play.svg" alt=""></span>
+                    <h4>Pritam</h4>
+                    <p style="color: rgb(144, 143, 143); font-size: smaller;">Artist</p>
+                </div>
+                <div class="artistCoverPicBox">
+                    <img class="artistPic" src="Artists/arjit.jpeg" alt="">
+                    <span class="play"><img src="SVGS/play.svg" alt=""></span>
+                    <h4>Arjit Singh</h4>
+                    <p style="color: rgb(144, 143, 143);font-size: smaller">Artist</p>
+                </div>
+                <div class="artistCoverPicBox">
+                    <img class="artistPic" src="Artists/arrahman.jpeg" alt="">
+                    <span class="play"><img src="SVGS/play.svg" alt=""></span>
+                    <h4>A.R.Rahman</h4>
+                    <p style="color: rgb(144, 143, 143);font-size: smaller">Artist</p>
+                </div>
+                <div class="artistCoverPicBox">
+                    <img class="artistPic" src="Artists/dakshit.jpg" alt="">
+                    <span class="play"><img src="SVGS/play.svg" alt=""></span>
+                    <h4>Dakshit</h4>
+                    <p style="color: rgb(144, 143, 143);font-size: smaller">Artist</p>
+                </div>
+                <div class="artistCoverPicBox">
+                    <img class="artistPic" src="Artists/vishal-shekar.jpeg" alt="">
+                    <span class="play"><img src="SVGS/play.svg" alt=""></span>
+                    <h4>Vishal-Shekar</h4>
+                    <p style="color: rgb(144, 143, 143);font-size: smaller">Artist</p>
+                </div>
+                <div class="artistCoverPicBox">
+                    <img class="artistPic" src="Artists/atif aslam.jpeg" alt="">
+                    <span class="play"><img src="SVGS/play.svg" alt=""></span>
+                    <h4>Atif Aslam</h4>
+                    <p style="color: rgb(144, 143, 143);font-size: smaller">Artist</p>
+                </div>
+            </div>
+
+
+            <div class="Trending_sec">
+                <div style="font-size: x-large;">Popular albums and singles</div>
+            </div>
+
+            <div class="songCoverPic">
+                <div class="songCoverPicBox">
+                    <img class="songs" src="indias best/aashiqui2.jpeg" alt="">
+                    <span class="play"><img src="SVGS/play.svg" alt=""></span>
+                    <h4>Aashiqui 2</h4>
+                    <p style="color: rgb(144, 143, 143); font-size: smaller;">Ankit Tiwari,Mithoon</p>
+                </div>
+                <div class="songCoverPicBox">
+                    <img class="songs" src="indias best/yjhd.jpeg" alt="">
+                    <span class="play"><img src="SVGS/play.svg" alt=""></span>
+                    <h4>YJHD</h4>
+                    <p style="color: rgb(144, 143, 143);font-size: smaller">Pritam</p>
+                </div>
+                <div class="songCoverPicBox">
+                    <img class="songs" src="indias best/sanam.jpeg" alt="">
+                    <span class="play"><img src="SVGS/play.svg" alt=""></span>
+                    <h4>Sanam Teri Kasam</h4>
+                    <p style="color: rgb(144, 143, 143);font-size: smaller">Himesh , Sameer..</p>
+                </div>
+                <div class="songCoverPicBox">
+                    <img class="songs" src="indias best/raanjhan.jpeg" alt="">
+                    <span class="play"><img src="SVGS/play.svg" alt=""></span>
+                    <h4>Raanjha</h4>
+                    <p style="color: rgb(144, 143, 143);font-size: smaller">Sachet-Parampar</p>
+                </div>
+                <div class="songCoverPicBox">
+                    <img class="songs" src="indias best/Young  goat.jpeg" alt="">
+                    <span class="play"><img src="SVGS/play.svg" alt=""></span>
+                    <h4>Young G.O.A.T</h4>
+                    <p style="color: rgb(144, 143, 143);font-size: smaller">Cheema Y , Gur Sidhu</p>
+                </div>
+                <div class="songCoverPicBox">
+                    <img class="songs" src="SongThumbnail/song5.jpeg" alt="">
+                    <span class="play"><img src="SVGS/play.svg" alt=""></span>
+                    <h4>Glory</h4>
+                    <p style="color: rgb(144, 143, 143);font-size: smaller">Yo Yo Honey Singh</p>
+                </div>
+            </div>
+
+            <footer>
+                <div class="foot">
+                    <div class="foot1">
+                        <ul>
+                            <li>Company</li>
+                            <li><a href="https://www.spotify.com/in-en/about-us/contact/">About</a></li>
+                            <li><a href="">Jobs</a></li>
+                            <li><a href="">For the Record</a></li>
+                        </ul>
+                    </div>
+                    <div class="foot2">
+                        <ul>
+                            <li>Communities</li>
+                            <li><a href="https://artists.spotify.com/home">For Artists</a></li>
+                            <li><a href="">Developers</a></li>
+                            <li><a href="">Advertising</a></li>
+                            <li><a href="">Investors</a></li>
+                            <li><a href="">Vendors</a></li>
+
+                        </ul>
+                    </div>
+                    <div class="foot3">
+                        <ul>
+                            <li>Useful links</li>
+                            <li><a href="">Support</a></li>
+                            <li><a href="">Free Mobile App</a></li>
+                        </ul>
+                    </div>
+                    <div class="foot4">
+                        <ul>
+                            <li>Spotify Plans</li>
+                            <li><a href="">Premimum Individual</a></li>
+                            <li><a href="">Premimum Duo</a></li>
+                            <li><a href="">Premimum Family</a></li>
+                            <li><a href="">Premimum Student</a></li>
+                            <li><a href="">Spotify Free </a></li>
+
+                        </ul>
+                    </div>
+                    <div class="socialmedia">
+                        <div class="foot5">
+                            <a href=""><img src="SVGS/insta.svg" alt=""></a>
+                        </div>
+                        <div class="foot6">
+                            <a href=""><img src="SVGS/twitter.svg" alt=""></a>
+                        </div>
+                        <div class="foot7">
+                            <a href=""><img src="SVGS/facebook.svg" alt=""></a>
+                        </div>
+                    </div>
+                   
+
+                </div>
+            </footer>
+
+        </div>
+
+    </div>
+
+    <div class="MediaPlayer">
+        <div class="box1">
+            <div id="song_info" style="color: white; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+                <!-- 00:00/00:00 -->
+            </div>
+            <i class="fa-solid fa-backward fa-xl" style="color: #adafb3;"></i>
+
+            <i class="fa-solid fa-circle-play fa-2xl" style="color: #08af3a;"></i>
+            <i class="fa-solid fa-pause fa-2xl " style="color:#08af3a;"></i>
+
+            <i class="fa-solid fa-forward fa-xl" style="color: #aeb0b2;"></i>
+
+            <div class="volume">
+
+            </div>
+        </div>
+
+        <div class="box2">
+            <div class="seekbar">
+                <span class="seekbarcircle"></span>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="Spotify_1.js"></script>
+</body>
+
+</html>
