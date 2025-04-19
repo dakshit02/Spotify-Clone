@@ -11,7 +11,8 @@ let nextbut = document.querySelector(".fa-forward");
 
 async function getSongs() {
 
-    let a = await fetch("http://192.168.29.103:3000/JS_34(SPOTIFY%20CLONE)/Songs/");
+    let a = await fetch("./Songs/");
+
     let response = await a.text();
     // console.log(response);
     let div = document.createElement("div");
