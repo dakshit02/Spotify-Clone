@@ -10,27 +10,20 @@ let previousbut = document.querySelector(".fa-backward");
 let nextbut = document.querySelector(".fa-forward");
 
 async function getSongs() {
-
     let a = await fetch("Songs/");
 
-
-    let response = await a.text();
-    // console.log(response);
-    let div = document.createElement("div");
-    div.innerHTML = response;
-    let as = div.getElementsByTagName("a");
-    // console.log(as)
-    let songsArray = [];
-    for (let i = 0; i < as.length; i++) {
-        const element = as[i];
-        if (element.href.endsWith(".mp3")) {
-            songsArray.push(element.href)
-        }
-    }
-    // console.log(songsArray);
+    let songsArray = [
+        "Songs/Admirin' You (feat. Preston Pablo).mp3",
+        "Songs/Burberry (Official Video) Sidhu Moose Wala  Moosetape  The Kidd  Teji Sandhu.mp3",
+        "Songs/Full Video_Aao Milo ChalenJab We MetShahid Kapoor, Kareena KapoorPritam, Shaan, Ustad Sultan Khan.mp3",
+        "Songs/Jhol  Coke Studio Pakistan  Season 15  Maanu x Annural Khalid.mp3",
+        "Songs/MILLIONAIRE SONG (Full Video)_ @YoYoHoneySingh   GLORY  BHUSHAN KUMAR.mp3",
+        "Songs/The Weeknd - Hurry Up Tomorrow (Audio).mp3"
+    ];
     return songsArray;
 
 }
+
 
 async function main(index) {
 
